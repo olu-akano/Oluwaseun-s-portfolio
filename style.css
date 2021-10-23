@@ -1,5 +1,5 @@
 * {
-    background-color: lightskyblue;
+    background-color: whitesmoke;
 }
 
 #intro {
@@ -9,6 +9,7 @@
 }
 
 .homepage {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,27 +18,34 @@
 
 .footnavbar{
     overflow: hidden;
-    position: fixed;
+    margin-top: 100px;
+    margin-left:300px;
+
+    /* position: fixed;
     bottom: 0;
     width: 80%;
     font-size: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between; 
+    /* margin-left: 10px;  
+    margin-bottom: 20px; */
+
 }
 
-navbar a {
+.footnavbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 60px;
   text-decoration: none;
-  font-size: 60px;
+  font-size: 30px;
 }
 
-.intropric {
-    display: flex;
-    align-content: flex-end;
 
-}
+
+/* .textDeco {
+    text-decoration: none;
+
+} */
