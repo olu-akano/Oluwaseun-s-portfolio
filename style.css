@@ -1,5 +1,5 @@
 * {
-    background-color: whitesmoke;
+    background-color: rgb(234, 243, 248);
 }
 
 #intro {
@@ -18,18 +18,13 @@
 
 .footnavbar{
     overflow: hidden;
-    margin-top: 100px;
-    margin-left:300px;
-
-    /* position: fixed;
+    background-color:rgb(212, 239, 248) ;
+    position: fixed;
+    left: 0;
     bottom: 0;
-    width: 80%;
-    font-size: 20px;
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    /* margin-left: 10px;  
-    margin-bottom: 20px; */
+    justify-content: center
 
 }
 
@@ -37,15 +32,19 @@
   float: left;
   display: block;
   color: black;
-  text-align: center;
+  /* margin-left: 150px; */
   padding: 20px 60px;
   text-decoration: none;
   font-size: 30px;
+  background-color: rgb(212, 239, 248) ;
 }
 
+#mywork {
+    border-color: black;
+    font-size: 20px;
 
+}
 
-/* .textDeco {
-    text-decoration: none;
-
-} */
+#intropic {
+    height: 35vh;
+}
