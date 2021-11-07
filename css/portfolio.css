@@ -1,0 +1,27 @@
+#header {
+    text-align:center;
+}
+
+body {
+    background-color: rgb(234, 243, 248);
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.card-group {
+    width: 30rem;
+}
+
+.card {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.btn {
+    background-color:beige;
+    color: black;
+    margin-right: 10px;
+}

@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: type 2s steps(37) infinite;
+    overflow: hidden;
 }
 
 .homepage {
@@ -14,9 +16,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.footnavbar{
+.footnavbar {
     overflow: hidden;
     background-color:rgb(212, 239, 248) ;
     position: fixed;
@@ -32,12 +35,16 @@
   float: left;
   display: block;
   color: black;
-  /* margin-left: 150px; */
   padding: 20px 60px;
   text-decoration: none;
   font-size: 20px;
   background-color: rgb(212, 239, 248) ;
 }
+
+.footnavbar a:hover {
+    color: rgb(184, 184, 240);
+    font-size: 22px;
+  }
 
 #mywork {
     border-color: black;
@@ -48,3 +55,4 @@
 #intropic {
     height: 35vh;
 }
+
