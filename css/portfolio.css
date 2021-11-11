@@ -25,3 +25,30 @@ body {
     color: black;
     margin-right: 10px;
 }
+
+#footnavbar {
+    overflow: hidden;
+    background-color:rgb(212, 239, 248) ;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    height: 50px;
+
+}
+
+#footnavbar a {
+  float: left;
+  display: block;
+  color: black;
+  padding: 15px 60px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgb(212, 239, 248) ;
+}
+
+#footnavbar a:hover {
+    color: rgb(184, 184, 240);
+    font-size: 22px;
+  }
