@@ -18,7 +18,27 @@
     align-items: center;
     text-align: center;
 }
+.homepage h1 {
+  font-size: 50px;
+}
+.homepage p {
+    margin-top: 0px;
+    font-size: 40px;
+    color: black;
+    animation: type 4s steps(37) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
 
+@keyframes type {
+  0% {
+      width: 0ch;
+
+  }
+  100% {
+      width: 50ch;
+  }
+}
 .footnavbar {
     overflow: hidden;
     background-color:rgb(212, 239, 248) ;
@@ -80,5 +100,6 @@
 
 #intropic {
     height: 35vh;
+    margin-top: -30px; 
 }
 
