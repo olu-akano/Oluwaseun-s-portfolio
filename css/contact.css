@@ -33,3 +33,35 @@
     10.71429% { transform:translate(0,0) }
     100% { transform:translate(0,0) }
 }
+
+@media (max-width: 600px)  {     
+    body {
+        background-size: initial;
+        background-position-y: initial;
+    }
+   
+    .footnavbar {
+      display: flex;
+      justify-content: center;
+    }
+    .footnavbar a {
+      padding: 15px 10px;
+      font-size: 15px;
+    }
+    .images {
+        height: 15vh;
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;  
+    }
+
+    #header {
+        font-size: 15px;
+        text-align: center;
+    }
+}

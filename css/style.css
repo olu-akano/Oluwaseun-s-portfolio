@@ -54,7 +54,6 @@
 
 .footnavbar a {
   float: left;
-  display: block;
   color: black;
   padding: 15px 60px;
   text-decoration: none;
@@ -104,3 +103,22 @@
     margin-top: -30px; 
 }
 
+@media (max-width: 600px)  {     
+  body {
+      background-size: initial;
+      background-position-y: initial;
+  }
+ 
+  .footnavbar {
+    display: flex;
+    justify-content: center;
+  }
+  .footnavbar a {
+    padding: 15px 10px;
+    font-size: 15px;
+  }
+  .homepage p {
+    animation:none;
+    font-size: 10px;
+  }
+}
