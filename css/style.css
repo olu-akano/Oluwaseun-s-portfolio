@@ -117,8 +117,23 @@
     padding: 15px 10px;
     font-size: 15px;
   }
+
+  .homepage h1 {
+    font-size: 15px;
+  }
   .homepage p {
     animation:none;
-    font-size: 10px;
+    font-size: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  #intropic {
+    height: 20vh;
+    margin-top: 50px;
+  }
+
+  #mywork {
+    font-size:10px;
   }
 }
