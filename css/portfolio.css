@@ -60,15 +60,20 @@ body {
     }
     #header h1{
         font-size:20px;
+        text-align:center;
     }
     .card {
-        width:20rem;
+        width:15rem;
+    }
+    .card-group {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #footnavbar {
         display: flex;
         justify-content: center;
-        margin-left: -125px;
       }
     #footnavbar a {
         padding: 12px 10px;
